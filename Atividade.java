@@ -9,7 +9,7 @@ public class Atividade {
         do {
             String nome;
             do {
-                System.out.print("Digite seu nome: ");
+                System.out.print("Digite o nome do aluno: ");
                 nome = sc.nextLine();
                 if (!nome.matches("^[a-zA-Záéíóú ]+$")) {
                     System.out.println("ERRO! SO PODE CONTER LETRAS NO NOME.");
